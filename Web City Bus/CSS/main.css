@@ -1,0 +1,72 @@
+.ai{ text-align: right; }
+
+a{
+    color: black;
+    text-align: center;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    font-size: 20px;
+    background-color:  white;
+}
+.header{
+    padding: 20px;
+    font-size: 20px;
+    background-color: mediumblue;
+    text-align: center;
+    font-family: Khmer OS Content;
+    color: white;
+}
+.tab{
+    background-color: silver;
+    margin-top:  10px;
+}
+.menu{
+    background-color: silver;
+    color: navy;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 20px;
+    width: 20%;
+}
+.menu:hover{ background-color: azure; }
+
+.dropdown{
+    position: relative;
+    display: inline-block; 
+}
+.dropbtn{
+    background-color: silver;
+    color: navy;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    min-width: 268px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 268px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropbtn{ background-color: azure; }
+
+.dropdown:hover .dropdown-content{ display: block; }
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { background-color: springgreen }
+
